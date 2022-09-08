@@ -1,0 +1,16 @@
+.projectCardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 20px 50px 20px;
+    flex-wrap: wrap;
+}
+.projectContainer h2 {
+    display: block;
+    padding: 35px 0 0px 0;
+    color: #2aa8a8;
+}
+.projectContainer .quotes {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
