@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'
 import Typewriter from 'typewriter-effect'
 import profile from './profile.jpg'
+import resume from './Adam_Harms_Cover_Letter_Resume.pdf'
 
 const Home = () => {
 
@@ -10,47 +11,56 @@ const Home = () => {
         <div  className='home'>
 
             {/*todo map over list and insert them in the paragraph below*/}
-            <h1 className='iamText'>My Name is Adam Harms and I am <p className='iamMessages'><Typewriter
+            <h1 className='iamText'>My Name is Adam Harms and I am <span className='iamMessages'><Typewriter
               options={{
                 strings: ['a problem solver.', 'a web developer.', 'a lifelong learner.', 'a father.', 'a husband.'],
                 autoStart: true,
                 loop: true,
-              }}
-/></p></h1>
+              }}/>
+            </span>
+            </h1>
             <p className='quotes'>"Programming isn't about what you know; it's about what you can figure out.” <em> - Chris Pine</em></p>
-
             <hr/>
         <div className="intro">
             <div className="wrap">
                     <h2>About me</h2>
-
                 <div className="aboutMe">
                     <div className="left">
-
                         <img className='block' src={profile} alt="Image of me"/>
                         <div className='details'>
                             <p>Name: Adam Harms</p>
                             <p>Age: 42</p>
                             <p>Location: Grimes Iowa</p>
                             <p>Work Location: Remote</p>
+                            <h3>Code repository: <a href="https://github.com/HarmsA" target='new'>Github</a></h3>
+                            <h3><a href={resume} target='new'>Resume</a></h3>
                         </div>
                     </div>
-                    <p>I am a professional web developer where I am excited at the prospect of being challenged every day.
-                        I work as a junior developer for Active Interest Media. Here I am a full stack
-                        developer working with python, django, aws, javascript along with many other systems.
-                    </p>
-                   <p> I started teaching myself programming while I was in my previous position. I was stuck with the
-                       tedious prospect of compairing multiple excel sheets for orders in my area, getting that order number
-                       then comparing that with a different excel sheet for delivery date, and comparing that to again a different
-                       excel sheet.
-                       I had always been interested in programming but never pulled the trigger. This was the catalyst.
-                       I studied python and used an excel library to get my code working. I then packaged it up using Tkinter
-                       and let other people in my role to use the program I built.
-                       This started a love for programming and I have never regretted the time commitment or the decision.
-                       I look forward to the future where I can continually challenge myself and excel in what I do.
-                   </p>
-
-
+                    <div className="about-me-texts">
+                        <p>I am a professional web developer where I am excited at the prospect of being challenged every day.
+                            I work as a junior developer for Active Interest Media. I am a full stack
+                            developer working with Python, Django, AWS, Javascript along with many other systems.
+                        </p>
+                       <p> I started teaching myself programming while I was in my previous position. In that job, I was
+                           comparing multiple excel sheets for orders in my area. I first needed to getting the
+                           devices that were delivering that day. Then I needed the order number.  That number was
+                           compared with a different Excel sheet for an install date.  Then I needed to compare that to
+                           another Excel sheet for customers who purchased training in addition to their order.
+                           This was a perfect job for Python.
+                       </p>
+                        <p>
+                           I had always been interested in programming but never pursued it as a career. Using Python to
+                            create a program for my company became the catalyst.
+                          I studied Python and used an Excel library to get my code working.  I packaged it using Python’s
+                            built ini library, Tkinter, for the UI.  Once it was complete, I shared the program with
+                            colleagues for their use as well.
+                        </p>
+                        <p>
+                           This began a love for programming and  I have been grateful for the time commitment and the
+                            decision to move forward in this career path. I look forward to the future where I can
+                            continually challenge myself and Excel in what I do.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
