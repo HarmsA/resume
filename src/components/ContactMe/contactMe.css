@@ -53,4 +53,7 @@ ul > li {
     .contactMeContainer form {
         width: 80vw;
     }
+    #emailbtn {
+        width: 100%;
+    }
 }

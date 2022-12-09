@@ -11,20 +11,20 @@ import SimpleSitehq from './simplesiteshq.png'
 const SimpleSites = () => {
     return (
         <div className='card'>
-            <Card sx={{ maxWidth: 400, height: 450 }}>
+            <Card sx={{ maxWidth: 400, height: 500 }}>
                 <CardMedia
                     component="img"
                     alt="simplesiteshq.com"
-                    height="215"
+                    height="225"
                     image={SimpleSitehq}
+                    sx={{ objectFit: "contain" }}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         SimpleSitesHq.com
                     </Typography>
                     <Typography className='cardBody pt-3' variant="body2" color="text.secondary">
-                        I am building this website as a challenge for friends and family to build their own websites, but I am making it as professional as possible for my own entertainment.It is my Reactjs version of wordpress.Its a fun challenge that serves a real purpose however small it may be. It is currently underdevelopment and I am hoping to get it completed within the next 6 months.
-                       
+                        I am building this website as a challenge to my self to copy the WIX idea as WIX is also made in Reactjs. I plan on allowing friends and family to build their own websites and I am making it as professional as possible for my own entertainment. Its a fun challenge that serves a real purpose however small it may be. It is currently underdevelopment and I am hoping to get it to a working point within the next 6 months.
                     </Typography>
                 </CardContent>
 

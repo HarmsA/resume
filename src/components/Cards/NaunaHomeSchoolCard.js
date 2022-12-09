@@ -13,12 +13,13 @@ const NaunaHomeSchoolCard = () => {
     return (
         <div className='card'>
 
-        <Card sx={{ maxWidth: 400, height: 450 }}>
+        <Card sx={{ maxWidth: 400, height: 500 }}>
       <CardMedia
         component="img"
         alt="naunahomeschool.com"
         height="225"
         image={homeschool}
+        sx = {{objectFit: "contain"}}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

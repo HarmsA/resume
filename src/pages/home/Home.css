@@ -54,16 +54,17 @@ hr {
 .about-me-texts > p {
     letter-spacing: .12rem;
 }
-.image-cropper {
 
-}
 .intro img {
     height: 200px;
     border-radius: 100px;
 }
 .wrap {
-    margin: 2rem 1rem;
+    margin: 0rem 1rem;
     display: inline-block;
+}
+.wrap > h2 {
+    margin-top: 5px;
 }
 .aboutMe img {
     margin-right: 2rem;
@@ -102,5 +103,11 @@ hr {
     .home h1 {
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .quotes {
+        margin: 0 10px
+    }
+    .wrap {
+        margin: .5rem;
     }
 }

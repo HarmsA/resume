@@ -38,7 +38,7 @@ const Home = () => {
                     </div>
                     <div className="about-me-texts">
                         <p>I am a professional web developer where I am excited at the prospect of being challenged every day.
-                            I work as a junior developer for Active Interest Media. I am a full stack
+                            I work as a developer for Active Interest Media. I am a full stack
                             developer working with Python, Django, AWS, Javascript along with many other systems.
                         </p>
                        <p> I started teaching myself programming while I was in my previous position. In that job, I was
@@ -50,15 +50,15 @@ const Home = () => {
                        </p>
                         <p>
                            I had always been interested in programming but never pursued it as a career. Using Python to
-                            create a program for my company became the catalyst.
-                          I studied Python and used an Excel library to get my code working.  I packaged it using Python’s
-                            built ini library, Tkinter, for the UI.  Once it was complete, I shared the program with
+                            create a program for my company became the catalyst to start.
+                          I studied Python and used an Excel library to get my code working.  I packaged it using Python's
+                            built ini library, Tkinter for the UI.  Once it was complete, I shared the program with
                             colleagues for their use as well.
                         </p>
                         <p>
                            This began a love for programming and  I have been grateful for the time commitment and the
                             decision to move forward in this career path. I look forward to the future where I can
-                            continually challenge myself and Excel in what I do.
+                            continually challenge myself and excel in all that I do.
                         </p>
                     </div>
                 </div>
