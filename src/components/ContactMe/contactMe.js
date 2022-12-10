@@ -70,12 +70,12 @@ const ContactMe = () => {
             <h2>Contact me:</h2>
             <p className='quotes'>"If you never contact me you will never know how I can benefit your company.” <em> - Adam Harms</em></p>
 
-            <ul>
+            <ul className='contactMeListContainer'>
                 <li>
-                    <span className='contactMeList' onClick={handleClick}>Email me:</span> harms2a@gmail.com
+                    <span className='contactMeList' onClick={handleClick}>Email me: harms2a@gmail.com</span>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/adam-harms/">Linkedin: Adam Harms</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/adam-harms/">Linkedin: Adam Harms</a>
                 </li>
             </ul>
             <form ref={form} onSubmit={sendEmail}>

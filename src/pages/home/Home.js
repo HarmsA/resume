@@ -32,8 +32,8 @@ const Home = () => {
                             <p>Age: 42</p>
                             <p>Location: Grimes Iowa</p>
                             <p>Work Location: Remote</p>
-                            <h3>Code repository: <a href="https://github.com/HarmsA" target='new'>Github</a></h3>
-                            <h3><a href={resume} target='new'>Resume</a></h3>
+                            <h3 className='repository'>Code repository: </h3><a href="https://github.com/HarmsA" target='new'>Github</a>
+                            <h3 className='resume'><a href={resume} target='new'>Resume</a></h3>
                         </div>
                     </div>
                     <div className="about-me-texts">
