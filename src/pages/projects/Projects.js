@@ -12,7 +12,7 @@ import SimpleSites from './../../components/Cards/SimpleSites';
 const Projects = () => {
     return (
        <div className='projectContainer'>
-           <h2>Projects I have built</h2>
+           <h2>My Personal Projects</h2>
            <p className='quotes'>"The only way to learn a new programming language is by writing programs in it."<em> - Dennis Ritchie</em></p>
 
            <div className='projectCardContainer'>
