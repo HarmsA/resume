@@ -47,6 +47,7 @@ hr {
 .resume > a {
     display: block;
     color: #2aa8a8;
+    
 }
 .resume > a:visited {
      color:#098080;

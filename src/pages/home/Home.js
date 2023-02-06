@@ -1,12 +1,12 @@
 import React from 'react';
 import './Home.css'
 import Typewriter from 'typewriter-effect'
-import profile from './profile.jpg'
+import profile from './profile1.jpg'
 import resume from './Adam_Harms_Cover_Letter_Resume.pdf'
 
 const Home = () => {
 
-    const iAmMessages = ['a problem solver', 'a web developer', 'a father', 'a husband']
+    // const iAmMessages = ['a problem solver', 'a web developer', 'a father', 'a husband']
     return (
         <div  className='home'>
 
@@ -26,7 +26,7 @@ const Home = () => {
                     <h2>About me</h2>
                 <div className="aboutMe">
                     <div className="left">
-                        <img className='block' src={profile} alt="Image of me"/>
+                        <img className='block' src={profile} alt="Daughter and I"/>
                         <div className='details'>
                             <p>Name: Adam Harms</p>
                             <p>Age: 42</p>

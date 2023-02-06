@@ -116,7 +116,7 @@ const ContactMe = () => {
                       {/*<InputLabel htmlFor="input-email">Message</InputLabel>*/}
                     <TextField
                         name="message"
-                        id="outlined-multiline-static"
+                        id="outlined-multiline-static1"
                         label="Email Message"
                         multiline
                         rows={4}
