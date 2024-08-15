@@ -2,15 +2,7 @@
     width: 100%;
     margin: 50px auto;
 }
-ul {
-    list-style: none;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
-ul > li {
-    text-align: justify;
-}
+
 .contactMeListContainer > li {
     text-align: left;
 }

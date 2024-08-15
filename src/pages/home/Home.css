@@ -1,3 +1,7 @@
+.bodyContainer{
+    width: 90%;
+    margin: auto;
+}
 h2{
     font-size: 35px;
 }
@@ -71,7 +75,7 @@ hr {
     /*width: 30%;*/
 }
 .about-me-texts > p {
-    letter-spacing: .12rem;
+    /* letter-spacing: .12rem; */
 }
 
 .intro img {

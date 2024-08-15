@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css'
-import Typewriter from 'typewriter-effect'
-import profile from './profile1.jpg'
+// import Typewriter from 'typewriter-effect'
 import resume from './Adam_Harms_Cover_Letter_Resume.pdf'
 
 const Home = () => {
@@ -9,16 +8,16 @@ const Home = () => {
     // const iAmMessages = ['a problem solver', 'a web developer', 'a father', 'a husband']
     return (
         <div  className='home'>
-
             {/*todo map over list and insert them in the paragraph below*/}
-            <h1 className='iamText'>My Name is Adam Harms and I am <span className='iamMessages'><Typewriter
+            {/* <h1 className='iamText'>My Name is Adam Harms and I am <span className='iamMessages'><Typewriter
               options={{
                 strings: ['a problem solver.', 'a web developer.', 'a lifelong learner.', 'a father.', 'a husband.'],
                 autoStart: true,
                 loop: true,
               }}/>
             </span>
-            </h1>
+            </h1> */}
+
             <p className='quotes'>"Programming isn't about what you know; it's about what you can figure out.” <em> - Chris Pine</em></p>
             <hr/>
         <div className="intro">
@@ -26,15 +25,9 @@ const Home = () => {
                     <h2>About me</h2>
                 <div className="aboutMe">
                     <div className="left">
-                        <img className='block' src={profile} alt="Daughter and I"/>
-                        <div className='details'>
-                            <p>Name: Adam Harms</p>
-                            <p>Age: 42</p>
-                            <p>Location: Grimes Iowa</p>
-                            <p>Work Location: Remote</p>
-                            <h3 className='repository'>Code repository: </h3><a href="https://github.com/HarmsA" target='new'>Github</a>
+                        {/* <div className='details'> 
                             <h3 className='resume'><a href={resume} target='new'>Resume</a></h3>
-                        </div>
+                            </div> */}
                     </div>
                     <div className="about-me-texts">
                         <p>I am a professional web developer where I am excited at the prospect of being challenged every day.
@@ -49,11 +42,9 @@ const Home = () => {
                            This was a perfect job for Python.
                        </p>
                         <p>
-                           I had always been interested in programming but never pursued it as a career. Using Python to
-                            create a program for my company became the catalyst to start.
                           I studied Python and used an Excel library to get my code working.  I packaged it using Python's
                             built ini library, Tkinter for the UI.  Once it was complete, I shared the program with
-                            colleagues for their use as well.
+                            colleagues for their use as well. This use of Python to create a program for my company became the catalyst to start a career in programming.
                         </p>
                         <p>
                            This began a love for programming and  I have been grateful for the time commitment and the
@@ -65,6 +56,7 @@ const Home = () => {
             </div>
         </div>
         </div>
+        
     );
 };
 

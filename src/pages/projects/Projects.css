@@ -8,7 +8,7 @@
 .projectContainer h2 {
     display: block;
     padding: 0;
-    color: #2aa8a8;
+    /* color: #2aa8a8; */
 }
 .projectContainer .quotes {
     margin-bottom: 30px;

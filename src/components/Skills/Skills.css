@@ -2,6 +2,7 @@
     display: inline-block;
     width: 25%;
     min-width: 240px;
+    max-width: 240px;
     margin: 30px;
 }
 .skillsList li{
