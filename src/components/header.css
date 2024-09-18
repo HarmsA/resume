@@ -20,7 +20,10 @@ a {
 a:hover {
     cursor: pointer;
 }
-
+.resume {
+    margin-top: 20px;
+    display: inline-block;
+}
 #github::before{
     display: inline-block;
         /* width: 48px;
@@ -138,7 +141,11 @@ a:hover {
         }
 
 }
-
+@media only screen and (min-width: 1011px) {
+    .headerTextContainer .headerText h1{
+        font-size: 2.5rem;
+    }
+}
 @media only screen and (min-width: 1029px) {
     .headerContainer {
         display: flex;
@@ -159,7 +166,9 @@ a:hover {
         flex-direction: row;
         justify-content: space-between;
         width: 80%;
+        padding-top: 30px;
     }
+
     .rightAligned{
         margin-left:auto;
         
@@ -184,5 +193,10 @@ a:hover {
         display: inline-block;
         /* flex-direction: row; */
         width: 100%;
+    }
+}
+@media only screen and (min-width: 1060px) {
+    .headerTextContainer .headerText h1 {
+        font-size: 3rem;
     }
 }

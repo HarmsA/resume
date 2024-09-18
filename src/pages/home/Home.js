@@ -35,15 +35,15 @@ const Home = () => {
                             developer working with Python, Django, AWS, Javascript along with many other systems.
                         </p>
                        <p> I started teaching myself programming while I was in my previous position. In that job, I was
-                           comparing multiple excel sheets for orders in my area. I first needed to getting the
-                           devices that were delivering that day. Then I needed the order number.  That number was
+                           comparing multiple excel sheets for orders in my area. I first needed to get the
+                           devices that were delivered that day. Then I needed the order number.  That number was
                            compared with a different Excel sheet for an install date.  Then I needed to compare that to
                            another Excel sheet for customers who purchased training in addition to their order.
                            This was a perfect job for Python.
                        </p>
                         <p>
                           I studied Python and used an Excel library to get my code working.  I packaged it using Python's
-                            built ini library, Tkinter for the UI.  Once it was complete, I shared the program with
+                            builtin library, Tkinter for the UI.  Once it was complete, I shared the program with
                             colleagues for their use as well. This use of Python to create a program for my company became the catalyst to start a career in programming.
                         </p>
                         <p>

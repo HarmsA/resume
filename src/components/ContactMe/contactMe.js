@@ -37,19 +37,26 @@ const ContactMe = () => {
             setError("All fields are required. Please complete form.")
             return
         }
+        let templateParams = {
+            from_name: name,
+            from_email: email,
+            message: message
+        }
+
         setSnackbarMessage('Sending Email...')
         setSnackbarOpen(true)
-        emailjs.sendForm(
+        emailjs.send(
             "service_m391te3",
             "template_vkuvq3j",
-            form.current,
-            "r31OgeqP8rVCniQqx"
+            templateParams,
+            "PwaiORi7iGzyV0aVy"
         )
-          .then((result) => {
+          .then((response) => {
               setSnackbarMessage('Email Sent')
+              console.log('SUCCESS!', response.status, response.text);
 
           }, (error) => {
-              // console.log(error.text);
+              console.log('FAILED...', error);
               setSnackbarMessage('Email Unable to be sent')
           });
         setName('');

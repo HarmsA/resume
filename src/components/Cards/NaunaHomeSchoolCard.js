@@ -27,7 +27,7 @@ const NaunaHomeSchoolCard = () => {
         </Typography>
         <Typography className='cardBody' variant="body2" color="text.secondary">
             I built a website for my daughter for her homeschooling records. This keeps her
-            organized and allows those who are teaching her to see at a glance her homework,completed
+            organized and allows those who are teaching her to see at a glance her homework, completed
             work, and grades all in one place.
             This site was built using React.JS, Material-UI, Firebase, as well as several other smaller dependency packages that
             allow for automated texting for any homework questions and easy data manipulation.

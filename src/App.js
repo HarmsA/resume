@@ -16,10 +16,10 @@ function App() {
         <hr/>
         <Skills/>
         <hr/>
-      <Projects />
+        <Projects />
         <hr/>
         <ContactMe />
-        </div>
+      </div>
     </div>
   );
 }

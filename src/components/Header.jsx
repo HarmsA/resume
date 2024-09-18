@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../pages/home/profile1.jpg'
+import profile from '../pages/home/profile.jpg'
 import './header.css'
 import '../App.css'
 
@@ -13,6 +13,8 @@ const Header = () => {
                 <div className="headerText pl-15">
                     <h1 className='mt-10 mb-0'>Adam Harms</h1>
                     <h3 className='mt-0 mb-0 '>Web Developer</h3>
+                    <a className='resume' href={require("../pages/home/Adam_Harms_Cover_Letter_Resume_2024.pdf")} download="Adam Harms Resume">Download PDF Resume</a>
+
                 </div>
                 <div className='rightAligned mr-10'>
                     <div className='ulInfo'>

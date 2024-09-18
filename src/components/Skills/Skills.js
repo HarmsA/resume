@@ -18,7 +18,7 @@ const Skills = () => {
     }));
     return (
         <div className='skillContainer'>
-            <h2>Self assesment of languages, frameworks, and libraries I have used to build websites</h2>
+            <h2>Self assessment of languages, frameworks, and libraries I have used to build websites</h2>
             <div className='skillsListContainer'>
                 <ul className='skillsList'>
                     <li><span className='li-title'>Python</span> <BorderLinearProgress variant="determinate" value={65} /></li>
