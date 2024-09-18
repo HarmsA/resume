@@ -5,10 +5,14 @@
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 20px ;
+    padding: 30px;
     background-color: #667388;
     /* text-align: center; */
 } 
+.headerContainer h1 {
+    font-size: 2.2rem;
+
+}
 .headerContainer img {
     /* margin-top: 20px; */
     height: 300px;
@@ -23,7 +27,7 @@ a:hover {
 .resume {
     margin-top: 20px;
     display: inline-block;
-    color: #eceaea;
+    color: #ffffff;
 }
 #github::before{
     display: inline-block;
@@ -97,18 +101,18 @@ a:hover {
  }
  .headerUl li {
      width: max-content;
-     color: #eceaea;
+     color: #ffffff;
  }
  .ulInfo p {
      margin-top: 25px;
-     color: #eceaea;
+     color: #ffffff;
  }
 
 
 
 .headerText h1,
 .headerText h3 {
- color: #eceaea;
+ color: #ffffff;
 }
 /* 
 #linkedin::before{
@@ -122,6 +126,11 @@ a:hover {
     background-repeat: no-repeat;
     margin-left: -35px;
 } */
+@media only screen and (max-width: 400px) {
+    .headerContainer h1{
+        font-size: 2.2rem;
+    }
+}
 @media only screen and (min-width: 851px) {
     .headerContainer {
             display: flex;
@@ -131,6 +140,7 @@ a:hover {
             background-color: #667388;
             color: #eceaea;
             align-items: start;
+            padding-left: 35px;
         }
     
         .headerContainer img {
@@ -230,9 +240,9 @@ a:hover {
         /* flex-direction: row; */
         width: 100%;
     }
-}
-@media only screen and (min-width: 1060px) {
+/* } */
+/* @media only screen and (min-width: 1060px) { */
     .headerTextContainer .headerText h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 }
