@@ -85,7 +85,7 @@ const ContactMe = () => {
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/adam-harms/">Linkedin: Adam Harms</a>
                 </li>
             </ul>
-            <form ref={form} onSubmit={sendEmail}>
+            <form id="emailForm" ref={form} onSubmit={sendEmail}>
                 <h3>Send me an email</h3>
                 {error && <h4 className='error'>{error}</h4>}
                 <Stack
