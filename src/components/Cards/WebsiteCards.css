@@ -7,3 +7,11 @@
 p a {
     font-size: .55rem;
 }
+.xsmall {
+    font-size: 0.75rem;
+    /* Make the text small */
+    padding: 2px;
+    /* Reduce padding */
+    margin: 0;
+    /* Remove margin */
+}

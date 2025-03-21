@@ -30,26 +30,15 @@ const Home = () => {
                             </div> */}
                     </div>
                     <div className="about-me-texts">
-                        <p>I am a professional web developer where I am excited at the prospect of being challenged every day.
-                            I work as a developer for Active Interest Media. I am a full stack
-                            developer working with Python, Django, AWS, Javascript along with many other systems.
+                        <p>I am a professional web developer who thrives on being challenged every day. I currently work as a developer for Active Interest Media, where I operate as a full-stack developer using Python, Django, AWS, JavaScript, and many other technologies.
                         </p>
-                       <p> I started teaching myself programming while I was in my previous position. In that job, I was
-                           comparing multiple excel sheets for orders in my area. I first needed to get the
-                           devices that were delivered that day. Then I needed the order number.  That number was
-                           compared with a different Excel sheet for an install date.  Then I needed to compare that to
-                           another Excel sheet for customers who purchased training in addition to their order.
-                           This was a perfect job for Python.
+                       <p> My journey into programming began while working in my previous role, where I had to manually compare multiple Excel sheets to track orders. The process was repetitive and time-consuming, making it a perfect candidate for automation with Python. I took the initiative to teach myself Python, leveraging an Excel library to automate the workflow. To make the tool user-friendly, I built a UI using Tkinter and packaged it for my colleagues, drastically improving efficiency. This experience became the catalyst for my career in programming.
                        </p>
                         <p>
-                          I studied Python and used an Excel library to get my code working.  I packaged it using Python's
-                            builtin library, Tkinter for the UI.  Once it was complete, I shared the program with
-                            colleagues for their use as well. This use of Python to create a program for my company became the catalyst to start a career in programming.
+                          As I continue to refine my skills, I incorporate AI-driven development tools such as GitHub Copilot and Cursor AI to enhance my workflow. These technologies allow me to write cleaner code faster, troubleshoot issues efficiently, and stay at the forefront of modern development practices. By leveraging AI to assist in coding, debugging, and problem-solving, I maximize productivity while continuously improving my craft.
                         </p>
                         <p>
-                           This began a love for programming and  I have been grateful for the time commitment and the
-                            decision to move forward in this career path. I look forward to the future where I can
-                            continually challenge myself and excel in all that I do.
+                           My passion for programming has only grown, and I am grateful for the decision to pursue this career. I look forward to the future, where I can continually challenge myself, innovate, and excel in everything I do.
                         </p>
                     </div>
                 </div>

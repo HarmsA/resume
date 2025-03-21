@@ -1,30 +1,28 @@
 import React from 'react';
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
-import underConstruction from "./under-construction.jpg";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
+import bills from './envelope_budget_screenshot.png'
 
 const BillsCard = () => {
     return (
          <div className='card'>
-                <Card sx={{ maxWidth: 400, height: 450 }}>
+                <Card sx={{ maxWidth: 400, height: 600 }}>
       <CardMedia
         component="img"
-        alt="naunahomeschool.com"
+        alt="https://fold-budget-tracker-harms2a.replit.app/"
         height="225"
-        image={underConstruction}
+        image={bills}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-            Bills Website
+            <a href="https://fold-budget-tracker-harms2a.replit.app/" target="_blank" rel="noopener noreferrer">
+                Budget with Folders Website
+            </a>
         </Typography>
         <Typography className='cardBody' variant="body2" color="text.secondary">
-            I am building this website to allow my wife and I to keep track of expenses. We have traditionally used the
-            "Envelope System", however cash is used less and less so we decided to do an  “Envelope System” electronically.
-            This site is being built with React.JS, Material-UI, Firebase, as well as several other smaller dependency packages that
-            allow for easy data manipulation.
-<a href="https://www.freepik.com/free-vector/coming-soon-design_951588.htm#query=website%20under%20construction&position=3&from_view=keyword">Image by rwdd_studios on Freepik</a>
+            I am developing this website to help my wife and me track expenses electronically, replacing our traditional "Envelope System." Since cash is used less often, we wanted a digital alternative, with the possibility of integrating Stripe for public use. The site is built using Flask, Jinja2, JavaScript, and several other dependency packages that enable efficient data management and automation.
         </Typography>
       </CardContent>
 

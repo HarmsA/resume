@@ -8,6 +8,7 @@ import NaunaHomeSchoolCard from "../../components/Cards/NaunaHomeSchoolCard";
 // import SimpleSites from "../../components/Cards/WorkSitesCard";
 import SimpleSites from './../../components/Cards/SimpleSites';
 import Emmre from './../../components/Cards/emmre';
+import BillsCard from '../../components/Cards/BillsCard';
 
 
 const Projects = () => {
@@ -17,10 +18,10 @@ const Projects = () => {
            <p className='quotes'>"The only way to learn a new programming language is by writing programs in it."<em> - Dennis Ritchie</em></p>
 
            <div className='projectCardContainer'>
+                <BillsCard />
                <NaunaHomeSchoolCard/>
                {/*<WritersDigestConferenceCard/>*/}
-               {/* <BillsCard /> */}
-                <SimpleSites />
+                {/* <SimpleSites /> */}
                 <Emmre />
                {/* <WorkSitesCard/> */}
            </div>

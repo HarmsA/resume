@@ -13,7 +13,7 @@ const NaunaHomeSchoolCard = () => {
     return (
         <div className='card'>
 
-        <Card sx={{ maxWidth: 400, height: 500 }}>
+        <Card sx={{ maxWidth: 400, height: 600 }}>
       <CardMedia
         component="img"
         alt="naunahomeschool.com"
@@ -22,15 +22,14 @@ const NaunaHomeSchoolCard = () => {
         sx = {{objectFit: "contain"}}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          naunahomeschool.com
+                    <Typography gutterBottom variant="h5" component="div">
+                        <a href="https://naunahomeschool.com" target="_blank" rel="noopener noreferrer">
+                            naunahomeschool.com
+                        </a>
+          
         </Typography>
         <Typography className='cardBody' variant="body2" color="text.secondary">
-            I built a website for my daughter for her homeschooling records. This keeps her
-            organized and allows those who are teaching her to see at a glance her homework, completed
-            work, and grades all in one place.
-            This site was built using React.JS, Material-UI, Firebase, as well as several other smaller dependency packages that
-            allow for automated texting for any homework questions and easy data manipulation.
+            I created a homeschooling records website for my daughter, providing a streamlined way for her and her teachers to track assignments, completed work, and grades at a glance. Built with React.js, Material-UI, and Firebase, it also features automated text notifications for homework questions and efficient data management, ensuring organization and accessibility for her education.
         </Typography>
       </CardContent>
 
